@@ -1,0 +1,439 @@
+/*------ BASE -----*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.title-acсent {
+    color: #fd9222;
+}
+
+/*---------- HEADER ----------*/
+
+.header-logo {
+color: #111111;
+font-size: 18px;
+line-height: 1.11;
+letter-spacing: -0.03em;
+font-weight: 700;
+}
+
+.header-menu-list {
+    
+}
+
+.header-menu-item {
+font-size: 14px;
+ line-height: 16px;
+font-weight: 400;
+letter-spacing: -0.02em;
+}
+
+.item-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: #111111;
+}
+.item-link:hover,
+.item-link:focus {
+    color: #fd9222;
+}
+
+/*--------- HERO SECTION ---------*/
+
+.hero-section {
+    background-image: url(/images/chocolate-background-hero.jpg);
+    min-height: 600px;
+}
+
+.hero-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+letter-spacing: -0.03em;
+color: #ffffff;
+}
+
+.hero-btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.21;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-btn-link {
+    font-size: 14px;
+        font-weight: 600;
+        line-height: 1.21;
+        color: #ffffff;
+}
+
+.hero-btn-scrol {
+    font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+}
+
+/*------ ADVANTAGES SECTION ------*/
+
+.advantages-section {
+    background-color: #1E1823;
+}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+
+}
+
+.advantages-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.21;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+/*--------- TASTE  SECTION ---------- */
+
+.taste-section {
+
+}
+
+.taste {
+
+}
+
+.taste-title {
+font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+.taste-text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111111;
+}
+
+.taste-list {
+
+}
+
+.taste-item {
+
+}
+
+.taste-img {
+
+}
+
+.taste-subtitle {
+font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+/*------- MADE SECTION -------*/
+
+.made-section {
+
+}
+
+.made-title {
+font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+
+.made-img {
+
+}
+
+.made-receipt {
+
+}
+
+.made-subtitle {
+font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111111;
+}
+
+.made-list {
+
+}
+
+.made-text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+/*----- PRODUCTS SECTION -----*/
+
+.products-section {}
+
+.products-title {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111111;
+}
+
+.products-list {
+
+}
+
+.products-item {
+
+}
+
+.products-img {}
+
+.products-subtitle {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #111111;
+}
+
+.products-text {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+        color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+    font-weight: 600;
+        font-size: 14px;
+        color: #111111;
+}
+
+/*------- SELLERS SECTION ------*/
+
+.sellers-section {
+
+}
+
+.sellers-images {
+
+}
+
+.sellers-images-list {
+
+}
+
+.sellers-image-item {
+
+}
+
+.sellers-image {
+
+}
+
+.sellers-bottom {
+
+}
+
+.sellers-text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.sellers-btn {
+    font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+}
+
+/*------- LOVED SECTION -------*/
+
+.loved-section {
+
+}
+
+.loved-title {
+font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+}
+
+.loved-list {
+
+}
+
+
+.loved-item {
+
+}
+
+.loved-img {
+
+}
+
+.loved-item-subtitle {
+font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111111;
+}
+
+.loved-item-text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+    font-weight: 600;
+        font-size: 18px;
+        color: #111111;
+}
+
+/*------- SUBSCRIBE SECTION --------*/
+
+.subscribe-section {
+    background-image: url(/images/subcribe.jpg);
+}
+
+.subscribe-title {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+}
+
+.subscribe-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+}
+
+/*-------- FOOTER --------*/
+
+.footer {
+    background-color: #1E1823;
+}
+
+.footer-text {
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 1.21;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        text-align: center;
+        color: #ffffff;
+}
+
+.footer-addres {
+    font-style: normal;
+}
+
+.footer-addres-list {}
+
+.footer-addres-item {}
+
+.footer-addres-link {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.footer-menu {}
+
+.footer-menu-item {}
+
+.footer-menu-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+color: #fd9222;
+}
