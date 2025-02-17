@@ -16,12 +16,14 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="header">
+   <header class="header">
+        <div class="container header-container">
+            <nav class="header-nav">
       <a class="header-logo" href="/index.html"
         ><span class="italic-text">SIMPLY</span> CHOCOLATE<img class="chocolate-logo" src="./images/chocolate-logo.svg" 
         alt="logo"
       /></a>
-      <nav class="header">
+      
         <ul class="header-menu-list">
           <li class="header-menu-item"><a class="item-link" href="#">Home</a></li>
           <li class="header-menu-item"><a class="item-link" href="#made">How it's made?</a></li>
@@ -33,7 +35,7 @@
         </ul>
       </nav>
       <address class="header-address">
-        <ul class="header-list-items">
+        <ul class="header-address-list">
           <li>
             <a href="#"><img src="./images/instagram.svg" alt="instagram" /></a>
           </li>
@@ -42,24 +44,29 @@
           </li>
         </ul>
       </address>
-    </header>
+    </div>
+    </header> 
     <main>
       <section class="hero-section">
         <div class="container">
+            <div class="hero-wrapper">
           <h1 class="hero-title">
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <button class="hero-btn" type="button">Buy now</button>
+          <div class="hero-buttons">
+          <button class="hero-btn default-btn" type="button">Buy now</button>
           <a class="hero-btn-link" href="#made">How it's made</a>
           <a class="hero-btn-scrol" href="#advantages">scroll down</a>
+        </div>
+        </div>
         </div>
       </section>
       <section class="advantages-section" id="advantages">
         <div class="container">
           <ul class="advantages-list">
             <li class="advantages-item">
-              <img src="/images/Advantege-ikon1.svg" alt="chocolate" />
+              <img class="advantages-img" src="/images/Advantege-ikon1.svg" alt="chocolate" />
               <h3 class="advantages-subtitle">Unsurpassed taste</h3>
               <p class="advantages-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -69,7 +76,7 @@
               </p>
             </li>
             <li class="advantages-item">
-              <img src="/images/Advantege-ikon2.svg" alt="dollar" />
+              <img class="advantages-img" src="/images/Advantege-ikon2.svg" alt="dollar" />
               <h3 class="advantages-subtitle">Affordable price</h3>
               <p class="advantages-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -80,7 +87,7 @@
               </p>
             </li>
             <li class="advantages-item">
-              <img src="/images/Advantege-ikon3.svg" alt="spoon" />
+              <img class="advantages-img" src="/images/Advantege-ikon3.svg" alt="spoon" />
               <h3 class="advantages-subtitle">Own production</h3>
               <p class="advantages-text">
                 We take pride in our own production process, ensuring that every
@@ -92,7 +99,7 @@
           </ul>
         </div>
       </section>
-      <section class="taste-section">
+       <section class="taste-section">
         <div class="container">
           <div class="taste">
             <h2 class="taste-title">
@@ -107,14 +114,23 @@
             </p>
           </div>
           <ul class="taste-list">
-            <li class="taste-item">
+            <li class="taste-item taste-item-orange">
               <img class="taste-img"
                 src="/images/milk-chocolate.png"
                 width="206"
                 height="160"
                 alt="milk chocolate"
               />
-              <h3 class="taste-subtitle">Milk chocolate</h3>
+              <h3 class="taste-subtitle taste-subtitle-white">Milk chocolate</h3>
+              <div class="taste-cover-item">
+                <h3 class="taste-cover-title">Milk chocolate</h3>
+                <p class="taste-cover-text">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is
+                  the most consumed type of
+                  chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of
+                  all
+                  milk chocolate is sold in the United States and Europe, increasingly large amounts are consumed in China and Latin
+                  America.</p>
+              </div>
             </li>
             <li class="taste-item">
               <img class="taste-img"
@@ -124,10 +140,24 @@
                 alt="bottle of milk"
               />
               <h3 class="taste-subtitle">Milk</h3>
+              <div class="taste-cover-item">
+                <h3 class="taste-cover-title">Milk</h3>
+                <p class="taste-cover-text">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young
+                mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is
+                called colostrum, contains antibodies that strengthen the immune system, and thus reduces the risk of many diseases.
+                Milk contains many nutrients, including protein and lactose.</p>
+              </div>
             </li>
-            <li class="taste-item">
+            <li class="taste-item taste-item-black">
               <img src="/images/nuts.png" width="206" height="160" alt="nuts" />
-              <h3 class="taste-subtitle">Nuts</h3>
+              <h3 class="taste-subtitle taste-subtitle-white">Nuts</h3>
+              <div class="taste-cover-item">
+                <h3 class="taste-cover-title">Nuts</h3>
+                <p class="taste-cover-text">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a
+                nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source
+                of fiber, healthy fats, and plant protein. Plus, they’re great on their own, paired with fruit, or added to dishes like
+                salads, desserts, and grains.</p>
+              </div>
             </li>
             <li class="taste-item">
               <img class="taste-img"
@@ -137,13 +167,21 @@
                 alt="semi-sweet chocolate"
               />
               <h3 class="taste-subtitle">Semi - sweet chocolate</h3>
+              <div class="taste-cover-item">
+                <h3 class="taste-cover-title">Semi - sweet chocolate</h3>
+                <p class="taste-cover-text">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type
+                of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste
+                comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow. This delectable flavor of
+                chocolate is very versatile.</p>
+              </div>
             </li>
           </ul class="taste-item">
         </div>
-      </section>
-      <section class="made-section" id="made">
+      </section> 
+       <section class="made-section" id="made">
         <div class="container">
           <h2 class="made-title">How it's <span class="title-acсent">made?</span></h2>
+          <div class="made-content">
           <img class="made-img"
             src="/images/made-chocolate.jpg"
             width="600"
@@ -157,37 +195,39 @@
               flavor
             </h3>
             <ul class="made-list">
-              <li class="made-text">
-                <p>
+              <li class="made-item">
+                <p class="made-text">
                   Heat the milk in a saucepan without bringing it to a boil. Add
                   sugar and cocoa powder.
                 </p>
               </li>
-              <li class="made-text">
-                <p>
+              <li class="made-item">
+                <p class="made-text">
                   At the same time, prepare a water bath. Melt the butter on it.
                 </p>
               </li>
-              <li class="made-text">
-                <p>
+              <li class="made-item">
+                <p class="made-text">
                   "Mix" the milk mixture and already liquid butter. Mix
                   thoroughly with a silicone spatula so that the mass becomes
                   uniform and silky.
                 </p>
               </li>
-              <li class="made-text">
-                <p>Heat the mixture over low heat, letting it barely boil.</p>
+              <li class="made-item">
+                <p class="made-text">Heat the mixture over low heat, letting it barely boil.</p>
               </li>
-              <li class="made-text">
-                <p>
+              <li class="made-item">
+                <p class="made-text">
                   Pour the chocolate into special containers (can be replaced
-                  with ice molds). Allow to cool and harden.
+                  with ice molds). Allow to cool and harden. 
                 </p>
               </li>
             </ul>
+            </div>
           </div>
+          <div class="content-bottom"></div>
         </div>
-      </section>
+      </section> 
       <section class="products-section" id="products">
         <div class="container">
           <h2 class="products-title">Our <span class="title-acсent">Products</span></h2>
@@ -282,14 +322,14 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="sellers-section" id="sellers">
+      </section> 
+     <section class="sellers-section" id="sellers">
         <div class="container">
-          <h2><span class="title-acсent">Top</span> Sellers</h2>
+          <h2 class="sellers-title"><span class="title-acсent">Top</span> Sellers</h2>
           <div class="sellers-images">
             <ul class="sellers-images-list">
               <li class="sellers-image-item">
-                <img class="sellers-image"
+                <img class="sellers-img"
                   src="/images/sellers-img1.jpg"
                   height="464"
                   width="368"
@@ -297,7 +337,7 @@
                 />
               </li>
               <li class="sellers-image-item">
-                <img class="sellers-image"
+                <img class="sellers-img"
                   src="/images/sellers-img2.jpg"
                   height="464"
                   width="368"
@@ -305,7 +345,7 @@
                 />
               </li>
               <li class="sellers-image-item">
-                <img class="sellers-image"
+                <img class="sellers-img"
                   src="/images/sellers-img3.jpg"
                   height="464"
                   width="368"
@@ -316,16 +356,16 @@
           </div>
           <div class="sellers-bottom">
             <p class="sellers-text">
-              Crazy enough chocolate originates from a bean just like the coffee
-              bean called Cacao. Cacao has been around for thousands of years
-              and was first discovered by the Native American tribe called the
+              Crazy enough chocolate originates from a bean just like the <br> coffee
+              bean called Cacao. Cacao has been around for <br> thousands of years
+              and was first discovered by the Native <br> American tribe called the
               Mayans.
             </p>
-            <button class="sellers-btn" type="button">Buy now</button>
+            <button class="sellers-btn default-btn" type="button">Buy now</button>
           </div>
         </div>
       </section>
-      <section class="loved-section" id="loved">
+     <section class="loved-section" id="loved">
         <div class="container">
           <h2 class="loved-title"><span class="title-acсent">Chocolate</span> is loved</h2>
           <ul class="loved-list">
@@ -374,25 +414,30 @@
           <button  class="loved-btn" type="button">Leave a review</button>
         </div>
       </section>
-      <section class="subscribe-section">
+     <section class="subscribe-section">
+        <div class="subscribe-content">
         <h2 class="subscribe-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
         <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you
         craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art
         that is sure to please.</p>
-        <button class="subscribe-btn" type="button">Subscribe</button>
+        <button class="subscribe-btn default-btn" type="button">Subscribe</button>
+        </div>
       </section>
     </main>
-    <footer class="footer">
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
       <p class="footer-text"><span class="title-acсent">Chocolate</span> a delicious cure for a bad day</p>
+<address class="footer-addres">
       <p class="footer-subtitle">Contact us</p>
-      <address class="footer-addres">
         <ul class="footer-addres-list">
           <li class="footer-addres-item"><a class="footer-addres-link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
           <li class="footer-addres-item">
             <a class="footer-addres-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
           </li>
 </ul>
-<ul class="footer-addres-images">
+</address>
+<ul class="footer-addres-icons">
           <li class="footer-addres-img">
             <a href="#"><img src="./images/instagram-white.svg" alt="instagram" /></a>
           </li>
@@ -400,7 +445,8 @@
             <a href="#"><img src="/images/twitter-white.svg" alt="twitter" /></a>
           </li>
     </ul>
-      </address>
+    </div>
+      
       <ul class="footer-menu">
         <li class="footer-menu-item"><a class="footer-menu-link" href="#">Home</a></li>
         <li class="footer-menu-item"><a class="footer-menu-link" href="#made">How it's made?</a></li>
@@ -408,6 +454,53 @@
         <li class="footer-menu-item"><a class="footer-menu-link" href="#sellers">Top sellers</a></li>
         <li class="footer-menu-item"><a class="footer-menu-link" href="#loved">Chocolate is loved</a></li>
       </ul>
+    </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close" type="button">X</button>
+        <p class="modal-title">
+          LEAVE A REVIEW ABOUT <span class="title-acсent">OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <input 
+          class="modal-input" 
+          type="text" 
+          name="user-name"
+          placeholder="Name"
+          required minlength="2"
+          >
+          <input 
+          class="modal-input" 
+          type="email" 
+          name="user-email"
+          placeholder="Email"
+          >
+          <div class="input-wrap">
+          <input 
+          class="modal-input input-tel" 
+          type="tel" 
+          name="user-tel"
+          placeholder="Phone number"
+          required minlength="9"
+          >
+          <div class="tel-content">
+          <img class="phone-number-icon" src="/images/ukrain.svg" 
+          alt="ukrain"
+          height="24"
+          width="24">
+          <span class="tel-numbers">+380</span>
+          </div>
+          </div>
+<textarea 
+class="modal-textarea" 
+name="user-comment" 
+rows="5"  
+placeholder="Enter text"></textarea>
+
+<button class="modal-btn" type="submit"> Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
